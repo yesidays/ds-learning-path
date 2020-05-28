@@ -17,9 +17,6 @@
                   <nuxt-link to="/">Inicio</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/about">Acerca de</nuxt-link>
-                </li>
-                <li>
                   <nuxt-link to="/path">Ruta de preparación</nuxt-link>
                 </li>
                 <li>
@@ -45,9 +42,9 @@
       data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true"
     >
       <div class="uk-container uk-container-small">
-        <p class="hero-image uk-text-center">
+        <!--<p class="hero-image uk-text-center">
           <img src="images/success.jpg" alt="Hero" />
-        </p>
+        </p>-->
         <h4 class="uk-heading-medium uk-text-center uk-margin-remove-top">Ruta de preparación</h4>
       </div>
     </div>
