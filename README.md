@@ -1,6 +1,12 @@
 # ds-learning-path
 
-> My first project
+Welcome,
+
+This is a personal project that I am starting, in it you can find a career plan and preparation for a Data Scientist with the demands of a FANG.
+
+Also, the visual and functionality development I am doing in Nuxt.js, it is the first time that I use it, so feedback is accepted to improve the structure and management of the project.
+
+If you want to communicate with me you can write to [@silvercorp](https://www.twitter.com/silvercorp) on Twitter.
 
 ## Build Setup
 
