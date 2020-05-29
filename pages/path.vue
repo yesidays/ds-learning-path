@@ -82,6 +82,7 @@
               </ul>
             </div>
           </div>
+
           <div class="uk-width-1-1 uk-width-expand@m">
             <article class="uk-article">
               <h1 class="uk-article-title">Científico de Datos</h1>
@@ -179,7 +180,9 @@
                 </ul>
                 <p>
                   Si tienes sitios que deseas que agregue y comparta envía un tuit a
-                  <a href="https://www.twitter.com/silvercorp">@silvercorp</a>
+                  <a
+                    href="https://www.twitter.com/silvercorp"
+                  >@silvercorp</a>
                 </p>
 
                 <h2 id="videos-lectures">Videos y lecturas generales</h2>
@@ -364,25 +367,14 @@
 </template>
 
 <script>
-import Logo from "~/components/Logo.vue";
+  import Logo from "~/components/Logo.vue";
+  import Marked from 'marked'
 
-export default {
-  head() {
-    return {
-      title: "Acerca de",
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: "Acerca de mi"
-        }
-      ]
-    };
-  },
-  components: {
-    Logo
-  }
-};
+  export default {
+    components: {
+      Logo
+    }
+  };
 </script>
 
 
