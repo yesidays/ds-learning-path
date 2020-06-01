@@ -17,9 +17,6 @@
                   <nuxt-link to="/">Inicio</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/about">Acerca de</nuxt-link>
-                </li>
-                <li>
                   <nuxt-link to="/path">Ruta de preparación</nuxt-link>
                 </li>
                 <li>
@@ -27,6 +24,21 @@
                 </li>
               </ul>
             </div>
+            <!--<div class="uk-navbar-right">
+              <ul class="uk-navbar-nav uk-visible@m">
+                <li>
+                  <div class="uk-navbar-item">
+                    <nuxt-link class="uk-button uk-button-primary-outline" to="/es/path">ES</nuxt-link>
+                    |
+                    <nuxt-link class="uk-button uk-button-primary-outline" to="/en/path">EN</nuxt-link>
+                  </div>
+                </li>
+              </ul>
+              <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" data-uk-toggle>
+                <span data-uk-navbar-toggle-icon></span>
+                <span class="uk-margin-small-left">Menu</span>
+              </a>
+            </div>-->
             <div class="uk-navbar-center uk-hidden@m">
               <nuxt-link to="/">Científico de datos</nuxt-link>
             </div>
@@ -40,24 +52,11 @@
         </div>
       </nav>
     </div>
-    <div
-      class="uk-section section-hero uk-position-relative"
-      data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true"
-    >
-      <div class="uk-container uk-container-small">
-        <p class="hero-image uk-text-center">
-          <img src="images/success.jpg" alt="Hero" />
-        </p>
-        <h4 class="uk-heading-medium uk-text-center uk-margin-remove-top">Ruta de preparación</h4>
-      </div>
-    </div>
   </header>
 </template>
 
 <script>
-  
-  export default {
-    name: 'Head'
-  };
-
+export default {
+  name: "Head"
+};
 </script>

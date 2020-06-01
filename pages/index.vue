@@ -12,30 +12,30 @@
             <div
               class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight"
             >
-              <a class="uk-position-cover" href="doc.html"></a>
+              <a class="uk-position-cover" href="/"></a>
               <span data-uk-icon="icon: pencil; ratio: 3.4" class></span>
               <h3 class="uk-card-title uk-margin">Probabilidad y Estadística</h3>
-              <p>Get started fast with installation and theme setup instructions</p>
+              <!--<p>Get started fast with installation and theme setup instructions</p>-->
             </div>
           </div>
           <div>
             <div
               class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight"
             >
-              <a class="uk-position-cover" href="doc.html"></a>
+              <a class="uk-position-cover" href="/"></a>
               <span data-uk-icon="icon: settings; ratio: 3.4" class></span>
               <h3 class="uk-card-title uk-margin">Aprendizaje Automático</h3>
-              <p>Lean about all the theme options, features and how to use them</p>
+              <!--<p>Lean about all the theme options, features and how to use them</p>-->
             </div>
           </div>
           <div>
             <div
               class="uk-card uk-card-default uk-box-shadow-medium uk-card-hover uk-card-body uk-inline border-radius-large border-xlight"
             >
-              <a class="uk-position-cover" href="doc.html"></a>
+              <a class="uk-position-cover" href="/"></a>
               <span data-uk-icon="icon: code; ratio: 3.4" class></span>
               <h3 class="uk-card-title uk-margin">Algoritmos</h3>
-              <p>Get help or tailor the theme to your specific requirements</p>
+              <!--<p>Get help or tailor the theme to your specific requirements</p>-->
             </div>
           </div>
         </div>
