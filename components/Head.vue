@@ -17,7 +17,7 @@
                   <nuxt-link to="/">Inicio</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/path">Ruta de preparación</nuxt-link>
+                  <nuxt-link to="/sections/ds-path">Ruta de preparación</nuxt-link>
                 </li>
                 <li>
                   <nuxt-link to="/changelog">Control de cambios</nuxt-link>

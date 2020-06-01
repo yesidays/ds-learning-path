@@ -4,83 +4,7 @@
       <div class="uk-container">
         <div class="uk-grid-large" data-uk-grid>
           <div class="sidebar-fixed-width uk-visible@m">
-            <div class="sidebar-docs uk-position-fixed uk-margin-top">
-              <h5>Tabla de contenido</h5>
-              <ul class="uk-nav uk-nav-default doc-nav">
-                <li class="uk-active">
-                  <a href="#what-is-ds">¿Qué es un científico de datos?</a>
-                </li>
-                <li>
-                  <a href="#daily-plan">Plan diario</a>
-                </li>
-                <li>
-                  <a href="#useful-sites">Sitios útiles</a>
-                </li>
-                <li>
-                  <a href="#videos-lectures">Videos y lecturas generales</a>
-                </li>
-                <li>
-                  <a href="#gratefulness">Agradecimientos</a>
-                </li>
-              </ul>
-              <h5>Probabilidad y estadística</h5>
-              <ul class="uk-nav uk-nav-default doc-nav">
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-              </ul>
-              <h5>Aprendizaje automático</h5>
-              <ul class="uk-nav uk-nav-default doc-nav">
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-              </ul>
-              <h5>Algoritmia</h5>
-              <ul class="uk-nav uk-nav-default doc-nav">
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-              </ul>
-            </div>
+            <Menu />
           </div>
 
           <div class="uk-width-1-1 uk-width-expand@m">
@@ -221,23 +145,28 @@
 </template>
 
 <script>
-export default {
-  async asyncData({ params }) {
-    try {
-      const post = await import(`~/content/${params.slug}.md`);
+
+  import Menu from '../../components/Menu';
+  export default {
+    async asyncData({ params }) {
+      try {
+        const post = await import(`~/content/${params.slug}.md`);
+        return {
+          post
+        };
+      } catch (error) {
+        return false;
+      }
+    },
+    head() {
       return {
-        post
+        title: this.post.attributes.title
       };
-    } catch (error) {
-      return false;
+    },
+    components: {
+      Menu
     }
-  },
-  head() {
-    return {
-      title: this.post.attributes.title
-    };
-  }
-};
+  };
 </script>
 
 
