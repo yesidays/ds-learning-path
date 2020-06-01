@@ -17,6 +17,8 @@
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "@nuxtjs/markdownit": "^1.2.9",
+    "frontmatter-markdown-loader": "^3.5.0",
     "nodemon": "^1.18.9"
   }
 }
