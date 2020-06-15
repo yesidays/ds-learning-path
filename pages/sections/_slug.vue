@@ -9,7 +9,7 @@
           <div class="uk-width-1-1 uk-width-expand@m">
             <article class="uk-article">
               <h1 class="uk-article-title">{{ post.attributes.title }}</h1>
-              <p class="uk-text-lead uk-text-muted">
+              <p class="uk-text-muted">
                 {{ post.attributes.excerpt }}
               </p>
               <div

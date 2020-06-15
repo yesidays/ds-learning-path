@@ -1,14 +1,58 @@
 ---
-title: Veggies
-tags: veggies, cooking
-date: 2019-09-22
-excerpt: Veggies es bonus vobis proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.
+title: Científico de datos
+tags: carrera, cientifico de datos
+date: 2019-06-01
+excerpt: Este documento tiene como propósito presentar una recomendación de guía de estudio y preparación para un Científico de Datos que cubre desde los aspectos básicos hasta niveles avanzados para aspirar a hacer una entrevista en una FANG.
 ---
 
-# Hello world
+Los Científicos de Datos de acuerdo a diversas definiciones es una persona que tiene conocimientos de estadística, programación y análisis de datos. De acuerdo con Wikipedia tiene las siguientes habilidades:
 
-[Something](https://www.google.com)
+- Recopilar, procesar y extraer valor de las diversas y extensas bases de datos.
+- Imaginación para comprender, visualizar y comunicar sus conclusiones a los no científicos de datos.
+- Capacidad para crear soluciones basadas en datos que aumentan los beneficios, reducen los costos.
+- Los científicos de datos trabajan en todas las industrias y hacen frente a los grandes proyectos de datos en todos los niveles.
 
-## Subtitle
+[Leer más](https://es.wikipedia.org/wiki/Ciencia_de_datos#Cient%C3%ADfico_de_datos)
 
-### Text
+"Científico de datos (n): Persona que sabe más de estadística que cualquier programador y que a la vez sabe más de programación que cualquier estadístico", Josh Willis.
+
+## **Plan diario**
+
+Si aún no sabes cómo empezar te comparto mi plan diario para seguir preparándome como CD.
+
+- Dedicarle media hora de lectura de temas relacionados a CD en Medium o sitios similares.
+- Lectura de alguno de los libros listados (el tiempo que tu dispongas).
+- Codificar al menos una hora al día pueden ser ejercicios de algoritmia ó realizar ejercicios de probabilidad y estadística durante al menos una hora al día.
+- Tomar notas que puedo revisar para dudas posteriores. Puedes usar Notion o una libreta.
+- Practicar, practicar y practicar.
+
+Lo anterior es solo una idea sin embargo dependerá del tiempo y responsabilidades de cada persona, lo importante es que inicies y tengas constancia en tu aprendizaje.
+
+## **Sitios útiles**
+
+Si requieres practicar y poner a prueba tus avances puedes utilizar los siguientes sitios.
+
+- [Leetcode](https://www.leetcode.com/)
+- [Hacker Rank](https://hackerrank.com/)
+- [AlgoExpert](https://algoexpert.io/) (código de descuento aiwif-18)
+- [Codewars](http://www.codewars.com/)
+- [Codility](https://codility.com/programmers/)
+- [HackerEarth](https://www.hackerearth.com/)
+- [Sphere Online Judge](http://www.spoj.com/)
+- [Codechef](https://www.codechef.com/)
+- [InterviewCake](https://www.interviewcake.com/)
+- [Geeks for Geeks](http://www.geeksforgeeks.org/)
+- [InterviewBit](https://www.interviewbit.com/invite/icjf)
+
+Si tienes sitios que deseas que agregue y comparta envía un tuit a [@silvercorp](https://www.twitter.com/silvercorp)
+
+## **Videos y lecturas generales**
+
+- [Coursera: Learning How to Learn: Powerful mental tools to help you master tough subjects](https://www.coursera.org/learn/learning-how-to-learn/home/welcome)
+- [ABC: Always Be Coding](https://medium.com/always-be-coding/abc-always-be-coding-d5f8051afce2#.4heg8zvm4)
+
+## **Agradecimientos**
+
+Gracias a todos los que colaboran compartiendo este material y en especial a [Latincoder](https://twitter.com/jorge_vgut) y [Lira Tron](https://twitter.com/Lira_tron) por las enseñanzas en temas de algoritmia.
+
+

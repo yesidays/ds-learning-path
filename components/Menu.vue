@@ -6,34 +6,20 @@
         <a href="ds-path">Científico de datos</a>
       </h5>
       <ul class="uk-nav uk-nav-default doc-nav">
-        <li>
-          ...
-        </li>
+        <li>- Plan diario</li>
+        <li>- Sitios útiles</li>
+        <li>- Videos y lecturas generales</li>
+        <li>- Agradecimientos</li>
       </ul>
       <h5>
         <a href="ml-path">Aprendizaje automático</a>
       </h5>
-      <ul class="uk-nav uk-nav-default doc-nav">
-        <li>
-          
-        </li>
-      </ul>
       <h5>
         <a href="stats-path">Probabilidad y estadística</a>
       </h5>
-      <ul class="uk-nav uk-nav-default doc-nav">
-        <li>
-          
-        </li>
-      </ul>
       <h5>
         <a href="algorithms-path">Algoritmia</a>
       </h5>
-      <ul class="uk-nav uk-nav-default doc-nav">
-        <li>
-          
-        </li>
-      </ul>
     </div>
     
   </menu>
