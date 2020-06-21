@@ -117,8 +117,6 @@
     - [Decision Trees Algorithms](https://medium.com/deep-math-machine-learning-ai/chapter-4-decision-trees-algorithms-b93975f7a1f1)
     - [Decision Trees — An Intuitive Introduction](https://medium.com/x8-the-ai-community/decision-trees-an-intuitive-introduction-86c2b39c1a6c)
     - [Let’s Write a Decision Tree Classifier from Scratch](https://www.youtube.com/watch?v=LDRbO9a6XPU)
-- Entropía
-- Ganancia de información
 - Tipos de árboles
     - ID3
         - [ID3 Algorithm (concept and numerical)](https://www.youtube.com/watch?v=UdTKxGQvYdc)

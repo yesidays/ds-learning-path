@@ -1,6 +1,6 @@
 # Introducción
 
-**Este documento tiene como propósito presentar una recomendación de guía de estudio y preparación para un Científico de Datos que cubre desde los aspectos básicos hasta niveles avanzados para aspirar a hacer una entrevista en una FANG.**
+**Este documento tiene como propósito presentar una recomendación de guía de estudio y preparación para un Científico de Datos que cubre desde los aspectos básicos hasta niveles avanzados.**
 
 Los Científicos de Datos de acuerdo a diversas definiciones es una persona que tiene conocimientos de estadística, programación y análisis de datos. De acuerdo con Wikipedia tiene las siguientes habilidades:
 
@@ -19,15 +19,16 @@ Si aún no sabes cómo empezar te comparto mi plan diario para seguir preparánd
 
 - Dedicarle media hora de lectura de temas relacionados a CD en Medium o sitios similares.
 - Lectura de alguno de los libros listados (el tiempo que tu dispongas).
-- Codificar al menos una hora al día pueden ser ejercicios de algoritmia ó realizar ejercicios de probabilidad y estadística durante al menos una hora al día.
-- Tomar notas que puedo revisar para dudas posteriores. Puedes usar Notion o una libreta.
+- Codificar al menos una hora al día. Pueden ser ejercicios de algoritmia, probabilidad y estadística o realizar algún proyecto donde apliques modelos de ML.
+- Tomar notas que me permite revisarlas después en dado caso de tener alguna duda. Puedes usar Notion o una libreta.
 - Practicar, practicar y practicar.
+- Bonus: Crear un blog y documentar los avances.
 
 Lo anterior es solo una idea sin embargo dependerá del tiempo y responsabilidades de cada persona, lo importante es que inicies y tengas constancia en tu aprendizaje.
 
 ## **Sitios útiles**
 
-Si requieres practicar y poner a prueba tus avances puedes utilizar los siguientes sitios.
+Si requieres practicar y poner a prueba tus habilidades puedes utilizar los siguientes sitios.
 
 - [Leetcode](https://www.leetcode.com/)
 - [Kaggle](https://www.kaggle.com/)
@@ -42,7 +43,7 @@ Si requieres practicar y poner a prueba tus avances puedes utilizar los siguient
 - [Geeks for Geeks](http://www.geeksforgeeks.org/)
 - [InterviewBit](https://www.interviewbit.com/invite/icjf)
 
-Si tienes sitios que deseas que agregue y comparta envía un tuit a [@silvercorp](https://www.twitter.com/silvercorp)
+Si tienes sitios que consideras le pueden servir a la comunidad te invito a enviarme un tuit a [@silvercorp](https://www.twitter.com/silvercorp)
 
 ## **Videos y lecturas generales**
 
@@ -51,4 +52,4 @@ Si tienes sitios que deseas que agregue y comparta envía un tuit a [@silvercor
 
 ## **Agradecimientos**
 
-Gracias a todos los que colaboran compartiendo este material y en especial a [Latincoder](https://twitter.com/jorge_vgut) y [Lira Tron](https://twitter.com/Lira_tron) por las enseñanzas en temas de algoritmia.
+Gracias a todos los que colaboran compartiendo este material y en especial a [Latincoder](https://twitter.com/jorge_vgut) y [Lira Tron](https://twitter.com/Lira_tron) por las enseñanzas en temas de algoritmia, y a [Rodo Ferro](https://twitter.com/FerroRodolfo) y [Zally](https://twitter.com/zallyhg) por su retroalimentación.

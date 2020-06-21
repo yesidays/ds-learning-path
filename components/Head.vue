@@ -7,7 +7,7 @@
         <div class="uk-container">
           <div data-uk-navbar>
             <div class="uk-navbar-left">
-              <a class="uk-navbar-item uk-logo uk-visible@m" href="index.html">DS</a>
+              <a class="uk-navbar-item uk-logo uk-visible@m" href="/">DS</a>
               <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas-docs" data-uk-toggle>
                 <span data-uk-navbar-toggle-icon></span>
                 <span class="uk-margin-small-left">Ruta</span>
@@ -17,10 +17,10 @@
                   <nuxt-link to="/">Inicio</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/sections/ds-path">Ruta de preparación</nuxt-link>
+                  <nuxt-link to="/sections/introduction-path">Ruta de preparación</nuxt-link>
                 </li>
                 <li>
-                  <nuxt-link to="/changelog">Control de cambios</nuxt-link>
+                  <nuxt-link to="/about">Acerca de</nuxt-link>
                 </li>
               </ul>
             </div>

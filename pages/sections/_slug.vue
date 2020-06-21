@@ -12,18 +12,6 @@
               <p class="uk-text-muted">
                 {{ post.attributes.excerpt }}
               </p>
-              <div
-                class="uk-article-meta uk-margin-top uk-margin-medium-bottom uk-flex uk-flex-middle"
-              >
-                <div>
-                  Escrito por
-                  <span>
-                    <a href="https://www.twitter.com/silvercorp">Yesi Days</a>
-                  </span>
-                  <br />
-                  <time datetime="2020-05-25">{{ post.attributes.date }}</time>
-                </div>
-              </div>
               <div class="article-content link-primary">
                 <div class="content" v-html="post.html" />
               </div>
