@@ -6,13 +6,13 @@
         <button class="uk-offcanvas-close" type="button" data-uk-close></button>
         <ul class="uk-nav uk-nav-primary uk-nav-offcanvas uk-margin-top">
           <li class="uk-active">
-            <a href="index.html">Inicio</a>
+            <nuxt-link to="/">Inicio</nuxt-link>>
           </li>
           <li>
-            <a href="doc.html">Ruta de aprendizaje</a>
+            <nuxt-link to="/sections/introduction-path">Ruta de aprendizaje</nuxt-link>
           </li>
           <li>
-            <a href="contact.html">Contacto</a>
+            <nuxt-link to="/about">Acerca de</nuxt-link>
           </li>
         </ul>
         <div class="uk-margin-top uk-text-center">
@@ -59,16 +59,13 @@
         <div>
           <ul class="uk-subnav uk-flex-center">
             <li>
-              <a href="index.html">Inicio</a>
+              <nuxt-link to="/">Inicio</nuxt-link>
             </li>
             <li>
-              <a href="about.html">Acerca de</a>
+              <nuxt-link to="/about">Acerca de</nuxt-link>
             </li>
             <li>
-              <a href="career-path.html">Ruta</a>
-            </li>
-            <li>
-              <a href="contact.html">Contacto</a>
+              <nuxt-link to="/sections/introduction-path">Ruta de preparación</nuxt-link>
             </li>
           </ul>
         </div>

@@ -36,28 +36,11 @@
         <h1 class="uk-article-title">Consideraciones</h1>
         <div class="article-content link-primary">
           <p>
-            Debes tener en cuenta que la mayoría del contenido se encuentra en inglés debido a que está más actualizado y completo,
-            además que me he enfocado en agregar enlaces que sean gratuitos para que no sea un impedimento para tu estudio.
-            Sin embargo hay algunos que son de paga y dependerá de ti evaluar si te conviene hacer o no una inversión económica.
+            Debes tener en cuenta que el contenido se encuentra en inglés debido a que está más actualizado y completo,
+            además que me he enfocado en agregar enlaces que son gratuitos para que no sea un impedimento para tu estudio.
           </p>
         </div>
       </article>
-    </div>
-    <div class="uk-container uk-container-xsmall">
-      <article class="uk-article">
-        <h1 class="uk-article-title">Mi plan de acción</h1>
-        <div class="article-content link-primary">
-          <h5
-            id="morbi-varius-in-accumsan-blandit-elit-ligula-velit-luctus-mattis-ante-nulla-nulla"
-          >Por si aún no sabes por donde empezar te comparto cuál es mi plan de acción.</h5>
-          <p>
-            Mi objetivo es estudiar al menos una hora al día durante seis meses, se que parece ser mucho tiempo pero el nivel que deseo alcanzar es alto. Para mantenerme enfocada
-            usaré la técnica de Pomodoro y practicaré mi avances de algoritmia en los sitios LeetCode y HackerRank.
-          </p>
-        </div>
-      </article>
-    </div>
-    <div class="uk-container uk-container-xsmall">
       <article class="uk-article">
         <h1 class="uk-article-title">Colaboraciones</h1>
         <div class="article-content link-primary">
@@ -70,8 +53,18 @@
           <p>El objetivo es que entre todos podamos apoyarnos y con tu ayuda será posible tener un proyecto más completo.</p>
         </div>
       </article>
-    </div>
+      <br />
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_s-xclick" />
+      <input type="hidden" name="hosted_button_id" value="B5B9DGV8R5B4A" />
+      <input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+      <img alt="" border="0" src="https://www.paypal.com/en_MX/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+
   </div>
+    </div>
+    
+    
 </template>
 
 <script>

@@ -83,38 +83,6 @@
       </div>
     </div>
 
-    <div class="uk-section">
-      <div class="uk-container uk-container-small">
-        <h2 class="uk-h1 uk-text-center">Preguntas frecuentes</h2>
-        <p class="uk-text-center uk-text-lead">Algunas de las preguntas más frecuentes</p>
-        <ul class="uk-margin-medium-top" data-uk-accordion="multiple: true">
-          <li>
-            <a
-              class="uk-accordion-title uk-box-shadow-hover-small"
-              href="#"
-            >¿Qué es un Científico de Datos?</a>
-            <div class="article-content uk-accordion-content link-primary">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam cupiditate enim dolorum doloribus quam, commodi pariatur similique eum aspernatur repudiandae debitis nulla consectetur illo nobis tenetur perspiciatis? Accusantium, illum nemo?</p>
-              <h4>¿Qué necesito?</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, rerum sapiente neque minima, fugit dignissimos animi quas eligendi commodi fuga aut ipsum perferendis! Nihil iste soluta rem tenetur non veniam.</p>
-              <ul>
-                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum asperiores dolore, aperiam cumque nihil recusandae voluptatum alias! Impedit similique consequatur veritatis fuga. Fuga nihil, dolores quo odio pariatur itaque perferendis!</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a class="uk-accordion-title uk-box-shadow-hover-small" href="#">Something</a>
-            <div class="article-content uk-accordion-content link-primary">
-              <p>Something else</p>
-              <ul>
-                <li></li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-
     <div class="uk-section uk-text-center">
       <div class="uk-container uk-container-small">
         <div data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true">
@@ -127,6 +95,15 @@
         </div>
       </div>
     </div>
+    <div class="uk-section uk-text-center">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="B5B9DGV8R5B4A" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_MX/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+    </div>
+
   </div>
 </template>
 
