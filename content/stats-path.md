@@ -44,7 +44,6 @@ Nota: Si prefieres revisar los temas siguientes en un solo recurso puedes descar
 - Asimetría y curtosis.
     - Asimetría
         - Negativa, Simétrica y Asimetría positiva
-            - [¿What is?](What is Skewness? | Statistics)
             - [Symmetry and Skewness](https://www.youtube.com/watch?v=pfujiA5Mk_U)
             - [Skewness - Right, Left & Symmetric Distribution - Mean, Median, & Mode With Boxplots - Statistics](https://www.youtube.com/watch?v=U0NZu6f5TMI)
     - Curtosis
@@ -97,20 +96,44 @@ Nota: Si prefieres revisar los temas siguientes en un solo recurso puedes descar
 Es una rama de la estadística que se encarga de deducir propiedades, generar conclusiones a partir de una muestra del conjunto de datos. 
 
 - ¿Qué es la estadística inferencial?
-- Estimaciones
-    - Puntual
-    - De intervalo
+    - [What is Inferential Statistics?](https://www.statisticshowto.com/inferential-statistics/)
+    - [Inferential Statistics](https://medium.com/datadriveninvestor/inferential-statistics-ce8f8f21b3ab)
+    - [Understanding Statistical Inference](https://www.youtube.com/watch?v=tFRXsngz4UQ)
+- Estimaciones puntuales y de intervalo
+    - [Introduction to Statistics for Data Science](https://medium.com/diogo-menezes-borges/introduction-to-statistics-for-data-science-16a188a400ca)
+    - [Estimation and Confidence Intervals](https://www.youtube.com/watch?v=_BiVb6neUP0)
+    - [Confidence Intervals: Crash Course Statistics](https://www.youtube.com/watch?v=yDEvXB6ApWc)
+    - [Confidence Intervals - Introduction](https://www.youtube.com/watch?v=MbXThbTSrVI)
 - Pruebas de hipótesis
-    - Usando intervalos de confianza
+    - Introducción
+        - [Intro to Hypothesis Testing in Statistics](https://www.youtube.com/watch?v=VK-rnA3-41c)
+        - [Hypothesis testing](https://www.youtube.com/watch?v=8JIe_cz6qGA)
+        - [Hypothesis Testing - Examples](https://www.youtube.com/watch?v=0XXT3bIY_pw)
     - Usando p-values
+        - [Understanding the p-value - Statistics Help](https://www.youtube.com/watch?v=eyknGvncKLw)
+        - [StatQuest: P Values, clearly explained](https://www.youtube.com/watch?v=5Z9OIYA8He8)
+        - [P-value Explained Simply for Data Scientists](https://towardsdatascience.com/p-value-explained-simply-for-data-scientists-4c0cd7044f14)
+        - [Explaining p-values with puppies](https://medium.com/hackernoon/explaining-p-values-with-puppies-af63d68005d0)
+        - [P Values, z Scores, Alpha, Critical Values](https://www.youtube.com/watch?v=zTABmVSAtT0)
+        - [The problem with p-values](https://towardsdatascience.com/a-case-study-of-the-p-value-f0d708861334)
     - z-test, t-test, chi-square, f-test
         - [Learn about the t-test, the chi square test, the p value and more](https://www.youtube.com/watch?v=I10q6fjPxJ0&t=320s)
+        - [Z-statistics vs. T-statistics](https://www.youtube.com/watch?v=5ABpqVSx33I)
+        - [Test Statistics: Crash Course Statistics](https://www.youtube.com/watch?v=QZ7kgmhdIwA)
+        - [Hypothesis Testing Problems Z Test & T Statistics One & Two Tailed Tests 2](https://www.youtube.com/watch?v=zJ8e_wAWUzE)
 
 ### Adicionales
 
+- Introducción
+    - [ANOVA, ANCOVA, MANOVA and MANCOVA: Understand the difference](https://www.youtube.com/watch?v=Q116ZnLy5uA)
 - ANOVA
+    - [ANOVA: Crash Course Statistics](https://www.youtube.com/watch?v=oOuu8IBd-yo)
+    - [Analysis of Variance (ANOVA)](https://www.youtube.com/watch?v=ITf4vHhyGpc)
+    - [Statistics 101: ANOVA, A Visual Introduction](https://www.youtube.com/watch?v=0Vj2V2qRU10)
 - MANOVA
-- MANCOVA
+    - [Introduction to One-Way Multivariate Analysis of Variance (One-Way MANOVA)](https://www.youtube.com/watch?v=lChY_6DZGSs)
+- ANCOVA
+    - [Analysis of Covariance (ANCOVA) easily explained](https://www.youtube.com/watch?v=a61mkzQRf6c)
 
 ### Cursos gratuitos
 
@@ -119,11 +142,11 @@ Es una rama de la estadística que se encarga de deducir propiedades, generar co
 
 ### Libros recomendados
 
-- 
+- [Introduction to Statistics and Data Analysis](https://link.springer.com/book/10.1007%2F978-3-319-46162-5) (Free)
 
 ### Videos
 
-- [¿Por qué deberías amar la estadística?](https://www.ted.com/talks/alan_smith_why_you_should_love_statistics)
+- [Why you should love statistics](https://www.ted.com/talks/alan_smith_why_you_should_love_statistics)
 - [The best stats you've ever seen](https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen](https://www.ted.com/talks/hans_rosling_the_best_stats_you_ve_ever_seen))
 - [Playlist: Statistical rethinking (2017)](https://www.youtube.com/playlist?list=PLDcUM9US4XdM9_N6XUUFrhghGJ4K25bFc)
 
@@ -134,5 +157,5 @@ Es una rama de la estadística que se encarga de deducir propiedades, generar co
 
 ### Para practicar
 
-- [Ejercicios](https://www0.gsb.columbia.edu/faculty/pglasserman/B6014/exercises.pdf)
+- [Exercises](https://www0.gsb.columbia.edu/faculty/pglasserman/B6014/exercises.pdf)
 - [HackerRank: 10 days of statistics](https://www.hackerrank.com/domains/tutorials/10-days-of-statistics)
