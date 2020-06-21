@@ -4,89 +4,12 @@
       <div class="uk-container">
         <div class="uk-grid-large" data-uk-grid>
           <div class="sidebar-fixed-width uk-visible@m">
-            <div class="sidebar-docs uk-position-fixed uk-margin-top">
-              <h5>Tabla de contenido</h5>
-              <ul class="uk-nav uk-nav-default doc-nav">
-                <li class="uk-active">
-                  <a href="#what-is-ds">¿Qué es un científico de datos?</a>
-                </li>
-                <li>
-                  <a href="#daily-plan">Plan diario</a>
-                </li>
-                <li>
-                  <a href="#useful-sites">Sitios útiles</a>
-                </li>
-                <li>
-                  <a href="#videos-lectures">Videos y lecturas generales</a>
-                </li>
-                <li>
-                  <a href="#gratefulness">Agradecimientos</a>
-                </li>
-              </ul>
-              <h5>Probabilidad y estadística</h5>
-              <ul class="uk-nav uk-nav-default doc-nav">
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-              </ul>
-              <h5>Aprendizaje automático</h5>
-              <ul class="uk-nav uk-nav-default doc-nav">
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-              </ul>
-              <h5>Algoritmia</h5>
-              <ul class="uk-nav uk-nav-default doc-nav">
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-                <li>
-                  <a href="doc.html">...</a>
-                </li>
-              </ul>
-            </div>
+            <Menu />
           </div>
-
           <div class="uk-width-1-1 uk-width-expand@m">
             <article class="uk-article">
               <h1 class="uk-article-title">{{ post.attributes.title }}</h1>
-              <p class="uk-text-lead uk-text-muted">
+              <p class="uk-text-muted">
                 {{ post.attributes.excerpt }}
               </p>
               <div
@@ -124,120 +47,32 @@
         </div>
       </div>
     </div>
-
-    <div id="offcanvas-docs" data-uk-offcanvas="overlay: true">
-      <div class="uk-offcanvas-bar">
-        <button class="uk-offcanvas-close" type="button" data-uk-close></button>
-        <h5 class="uk-margin-top">Científico de Datos</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-          <li class="uk-active">
-            <a href="doc.html">Template setup</a>
-          </li>
-          <li>
-            <a href="doc.html">Basic theme setup</a>
-          </li>
-          <li>
-            <a href="doc.html">Navigation bar</a>
-          </li>
-          <li>
-            <a href="doc.html">Footer options</a>
-          </li>
-          <li>
-            <a href="doc.html">Creating your first post</a>
-          </li>
-          <li>
-            <a href="doc.html">Creating docs posts</a>
-          </li>
-          <li>
-            <a href="doc.html">Enabling comments</a>
-          </li>
-          <li>
-            <a href="doc.html">Google Analytics</a>
-          </li>
-        </ul>
-        <h5 class="uk-margin-top">Product Features</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-          <li>
-            <a href="doc.html">Hero page header</a>
-          </li>
-          <li>
-            <a href="doc.html">Category boxes section</a>
-          </li>
-          <li>
-            <a href="doc.html">Fearured docs section</a>
-          </li>
-          <li>
-            <a href="doc.html">Video lightbox boxes section</a>
-          </li>
-          <li>
-            <a href="doc.html">Frequently asked questions section</a>
-          </li>
-          <li>
-            <a href="doc.html">Team members section</a>
-          </li>
-          <li>
-            <a href="doc.html">Call to action section</a>
-          </li>
-          <li>
-            <a href="doc.html">Creating a changelog</a>
-          </li>
-          <li>
-            <a href="doc.html">Contact form</a>
-          </li>
-          <li>
-            <a href="doc.html">Adding media to post and doc content</a>
-          </li>
-          <li>
-            <a href="doc.html">Adding table of contents to docs</a>
-          </li>
-          <li>
-            <a href="doc.html">Adding alerts to content</a>
-          </li>
-        </ul>
-        <h5 class="uk-margin-top">Customization</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-          <li>
-            <a href="doc.html">Translation</a>
-          </li>
-          <li>
-            <a href="doc.html">Customization</a>
-          </li>
-          <li>
-            <a href="doc.html">Development</a>
-          </li>
-          <li>
-            <a href="doc.html">Sources and credits</a>
-          </li>
-        </ul>
-        <h5 class="uk-margin-top">Help</h5>
-        <ul class="uk-nav uk-nav-default doc-nav">
-          <li>
-            <a href="doc.html">Contacting support</a>
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
 </template>
 
 <script>
-export default {
-  async asyncData({ params }) {
-    try {
-      const post = await import(`~/content/${params.slug}.md`);
+
+  import Menu from '../../components/Menu';
+  export default {
+    async asyncData({ params }) {
+      try {
+        const post = await import(`~/content/${params.slug}.md`);
+        return {
+          post
+        };
+      } catch (error) {
+        return false;
+      }
+    },
+    head() {
       return {
-        post
+        title: this.post.attributes.title
       };
-    } catch (error) {
-      return false;
+    },
+    components: {
+      Menu
     }
-  },
-  head() {
-    return {
-      title: this.post.attributes.title
-    };
-  }
-};
+  };
 </script>
 
 
