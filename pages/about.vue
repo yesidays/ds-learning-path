@@ -54,6 +54,9 @@
         </div>
       </article>
       <br />
+      <a class=""
+            href="https://www.patreon.com/yesidays" target="_blank"
+          >Quiero ser patrocinador</a><p>&nbsp;</p>
       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
       <input type="hidden" name="cmd" value="_s-xclick" />
       <input type="hidden" name="hosted_button_id" value="B5B9DGV8R5B4A" />
