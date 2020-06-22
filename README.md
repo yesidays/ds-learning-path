@@ -8,6 +8,8 @@ Also, the visual and functionality development I am doing in Nuxt.js, it is the 
 
 If you want to communicate with me you can write to [@silvercorp](https://www.twitter.com/silvercorp) on Twitter.
 
+Be a [Patreon](https://www.patreon.com/yesidays)
+
 ## Build Setup
 
 ```bash
