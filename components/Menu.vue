@@ -17,6 +17,9 @@
       <h5>
         <a href="algorithms-path">Algoritmia</a>
       </h5>
+      <h5>
+        <a href="sql-path">SQL</a>
+      </h5>
     </div>
     
   </menu>
