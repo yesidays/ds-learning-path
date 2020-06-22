@@ -21,7 +21,6 @@
         <a href="sql-path">SQL</a>
       </h5>
     </div>
-    
   </menu>
 </template>
 
